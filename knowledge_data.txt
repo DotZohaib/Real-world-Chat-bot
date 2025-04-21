@@ -1,0 +1,53 @@
+QUESTION: What can you help me with?
+ANSWER: I'm a custom chatbot designed to answer questions based on my knowledge base. You can ask me about various topics that are stored in my database.
+TAGS: help, capabilities, introduction, about
+
+---
+QUESTION: How do you work?
+ANSWER: I process your natural language questions and match them against my knowledge base to find the most relevant answers. I use basic NLP techniques to understand your queries and maintain conversation context to provide more coherent responses.
+TAGS: functionality, operation, technology, system
+
+---
+QUESTION: Who created you?
+ANSWER: I was created as a custom chatbot application with a Flask backend that processes natural language queries against a knowledge base file. I was built using Python, Flask, and basic NLP techniques.
+TAGS: creator, origin, development
+
+---
+QUESTION: What technologies are you built with?
+ANSWER: I'm built with Python for the backend using the Flask framework. I use basic natural language processing techniques to understand and process queries. My frontend is developed with HTML, CSS (Bootstrap), and JavaScript.
+TAGS: technology, stack, development, framework
+
+---
+QUESTION: What is a chatbot?
+ANSWER: A chatbot is a software application designed to conduct conversations with human users through text or voice interactions. Chatbots use various technologies like natural language processing, machine learning, and rule-based systems to understand and respond to user queries.
+TAGS: definition, chatbot, AI, technology
+
+---
+QUESTION: What is Flask?
+ANSWER: Flask is a lightweight web application framework for Python. It's designed to make getting started with web development quick and easy, with the ability to scale up to complex applications. Flask is classified as a microframework because it doesn't require particular tools or libraries.
+TAGS: Flask, framework, Python, web development
+
+---
+QUESTION: What is NLP?
+ANSWER: NLP (Natural Language Processing) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. It involves programming computers to process and analyze large amounts of natural language data, enabling machines to understand, interpret, and generate human language.
+TAGS: NLP, natural language processing, AI, machine learning
+
+---
+QUESTION: How do I add new knowledge to your database?
+ANSWER: Currently, new knowledge needs to be added directly to the knowledge base file. The file uses a simple format with QUESTION, ANSWER, and TAGS sections for each entry. In a production system, there would likely be an admin interface to add new entries more easily.
+TAGS: knowledge, database, update, add information
+
+---
+QUESTION: What are your limitations?
+ANSWER: As a simple chatbot, I have several limitations: I can only respond based on the information in my knowledge base, I don't have real-time web access, I use basic matching algorithms rather than advanced AI, I may not understand complex queries or context, and I don't learn from conversations automatically.
+TAGS: limitations, capabilities, restrictions
+
+---
+QUESTION: How is this different from ChatGPT?
+ANSWER: Unlike ChatGPT, I'm a simpler custom chatbot that works with a fixed knowledge base rather than a large language model. I don't generate new content or reasoning, but instead match your questions to pre-written answers. I'm designed to be lightweight and specific to a particular knowledge domain.
+TAGS: comparison, ChatGPT, differences, LLM
+
+---
+QUESTION: Can you remember our conversation?
+ANSWER: Yes, I maintain a basic conversation history to provide more contextual responses. This helps me understand follow-up questions and maintain a more coherent dialogue. However, this context is temporary and will be reset if you start a new session.
+TAGS: memory, conversation, context, history

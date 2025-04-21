@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Chatbot</title>
+    <!-- Bootstrap CSS from Replit theme -->
+    <link rel="stylesheet" href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container main-container py-4">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <h1 class="display-5">Custom Knowledge Chatbot</h1>
+                <p class="lead text-muted">Ask questions and get answers from the knowledge base</p>
+            </div>
+        </div>
+        
+        <div class="row flex-grow-1">
+            <div class="col-md-10 col-lg-8 mx-auto d-flex flex-column">
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h1><i class="fas fa-robot me-2"></i> Chatbot Assistant</h1>
+                        <button id="reset-button" class="btn btn-sm btn-outline-light" title="Reset conversation">
+                            <i class="fas fa-redo"></i> Reset
+                        </button>
+                    </div>
+                    
+                    <div id="chat-messages" class="chat-messages">
+                        <!-- Chat messages will be added here dynamically -->
+                    </div>
+                    
+                    <div class="chat-input">
+                        <input 
+                            type="text" 
+                            id="message-input" 
+                            placeholder="Type your message here..." 
+                            autocomplete="off"
+                            aria-label="Type your message"
+                        >
+                        <button id="send-button" class="btn btn-primary btn-icon" title="Send message">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="mt-4 text-center text-muted small">
+                    <p>This chatbot uses a custom knowledge base to provide responses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
