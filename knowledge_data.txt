@@ -3,51 +3,944 @@ ANSWER: I'm a custom chatbot designed to answer questions based on my knowledge 
 TAGS: help, capabilities, introduction, about
 
 ---
+
 QUESTION: How do you work?
 ANSWER: I process your natural language questions and match them against my knowledge base to find the most relevant answers. I use basic NLP techniques to understand your queries and maintain conversation context to provide more coherent responses.
 TAGS: functionality, operation, technology, system
 
 ---
+
 QUESTION: Who created you?
 ANSWER: I was created as a custom chatbot application with a Flask backend that processes natural language queries against a knowledge base file. I was built using Python, Flask, and basic NLP techniques.
 TAGS: creator, origin, development
 
 ---
+
 QUESTION: What technologies are you built with?
 ANSWER: I'm built with Python for the backend using the Flask framework. I use basic natural language processing techniques to understand and process queries. My frontend is developed with HTML, CSS (Bootstrap), and JavaScript.
 TAGS: technology, stack, development, framework
 
 ---
+
 QUESTION: What is a chatbot?
 ANSWER: A chatbot is a software application designed to conduct conversations with human users through text or voice interactions. Chatbots use various technologies like natural language processing, machine learning, and rule-based systems to understand and respond to user queries.
 TAGS: definition, chatbot, AI, technology
 
 ---
+
 QUESTION: What is Flask?
 ANSWER: Flask is a lightweight web application framework for Python. It's designed to make getting started with web development quick and easy, with the ability to scale up to complex applications. Flask is classified as a microframework because it doesn't require particular tools or libraries.
 TAGS: Flask, framework, Python, web development
 
 ---
+
 QUESTION: What is NLP?
 ANSWER: NLP (Natural Language Processing) is a field of artificial intelligence that focuses on the interaction between computers and humans through natural language. It involves programming computers to process and analyze large amounts of natural language data, enabling machines to understand, interpret, and generate human language.
 TAGS: NLP, natural language processing, AI, machine learning
 
 ---
-QUESTION: How do I add new knowledge to your database?
-ANSWER: Currently, new knowledge needs to be added directly to the knowledge base file. The file uses a simple format with QUESTION, ANSWER, and TAGS sections for each entry. In a production system, there would likely be an admin interface to add new entries more easily.
-TAGS: knowledge, database, update, add information
+
+QUESTION: What is Python?
+ANSWER: Python is a high-level, interpreted programming language known for its readability and simplicity. It's widely used in web development, data science, automation, artificial intelligence, and more.
+TAGS: Python, programming language, beginner, development
 
 ---
+
+QUESTION: What is JavaScript?
+ANSWER: JavaScript is a scripting language used to create dynamic and interactive web pages. It is one of the core technologies of the web, alongside HTML and CSS.
+TAGS: JavaScript, web development, frontend, scripting
+
+---
+
+QUESTION: What is HTML?
+ANSWER: HTML (HyperText Markup Language) is the standard language used to create the structure of web pages. It defines elements like headings, paragraphs, links, images, and more.
+TAGS: HTML, markup language, web development, structure
+
+---
+
+QUESTION: What is CSS?
+ANSWER: CSS (Cascading Style Sheets) is used to describe the appearance and formatting of a document written in HTML. It allows developers to control layout, colors, fonts, and more.
+TAGS: CSS, styling, web design, frontend
+
+---
+
+QUESTION: What is React?
+ANSWER: React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of applications efficiently.
+TAGS: React, frontend, JavaScript, UI
+
+---
+
+QUESTION: What is MongoDB?
+ANSWER: MongoDB is a NoSQL database that stores data in JSON-like documents. It is known for its scalability and flexibility in handling large volumes of unstructured data.
+TAGS: MongoDB, database, NoSQL, backend
+
+---
+
+QUESTION: What is Node.js?
+ANSWER: Node.js is a runtime environment that allows you to run JavaScript on the server side. It is used to build scalable and high-performance backend applications.
+TAGS: Node.js, backend, JavaScript, server
+
+---
+
+QUESTION: What is a REST API?
+ANSWER: A REST API (Representational State Transfer) is a web service architecture that uses HTTP methods like GET, POST, PUT, and DELETE to perform operations on resources.
+TAGS: REST API, web services, backend, HTTP
+
+---
+
+QUESTION: What is Git?
+ANSWER: Git is a version control system that lets you track changes in code and collaborate with others. It's commonly used with GitHub for software development.
+TAGS: Git, version control, collaboration, source code
+
+---
+
+QUESTION: What is AI?
+ANSWER: AI (Artificial Intelligence) refers to machines or software that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making.
+TAGS: AI, artificial intelligence, machine learning, automation
+
+---
+
+QUESTION: What is machine learning?
+ANSWER: Machine learning is a subset of AI that enables systems to learn from data and improve their performance over time without being explicitly programmed.
+TAGS: machine learning, AI, data, algorithms
+
+---
+
 QUESTION: What are your limitations?
 ANSWER: As a simple chatbot, I have several limitations: I can only respond based on the information in my knowledge base, I don't have real-time web access, I use basic matching algorithms rather than advanced AI, I may not understand complex queries or context, and I don't learn from conversations automatically.
 TAGS: limitations, capabilities, restrictions
 
 ---
+
 QUESTION: How is this different from ChatGPT?
 ANSWER: Unlike ChatGPT, I'm a simpler custom chatbot that works with a fixed knowledge base rather than a large language model. I don't generate new content or reasoning, but instead match your questions to pre-written answers. I'm designed to be lightweight and specific to a particular knowledge domain.
 TAGS: comparison, ChatGPT, differences, LLM
 
 ---
+
 QUESTION: Can you remember our conversation?
 ANSWER: Yes, I maintain a basic conversation history to provide more contextual responses. This helps me understand follow-up questions and maintain a more coherent dialogue. However, this context is temporary and will be reset if you start a new session.
 TAGS: memory, conversation, context, history
+
+---
+
+QUESTION: How do I add new knowledge to your database?
+ANSWER: Currently, new knowledge needs to be added directly to the knowledge base file. The file uses a simple format with QUESTION, ANSWER, and TAGS sections for each entry. In a production system, there would likely be an admin interface to add new entries more easily.
+TAGS: knowledge, database, update, add information
+
+---
+
+QUESTION: What is TypeScript?
+ANSWER: TypeScript is a strongly typed programming language that builds on JavaScript, adding static types. It helps catch errors early during development and improves code maintainability.
+TAGS: TypeScript, JavaScript, language, types, development
+
+---
+
+QUESTION: What is Docker?
+ANSWER: Docker is a platform that enables developers to package applications into containers—lightweight, standalone executables that include everything needed to run the app.
+TAGS: Docker, containers, DevOps, deployment
+
+---
+
+QUESTION: What is Kubernetes?
+ANSWER: Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications.
+TAGS: Kubernetes, orchestration, containers, cloud
+
+---
+
+QUESTION: What is GraphQL?
+ANSWER: GraphQL is a query language for APIs that allows clients to request exactly the data they need. It’s an alternative to REST and enables more efficient data fetching.
+TAGS: GraphQL, API, data, query language
+
+---
+
+QUESTION: What is CI/CD?
+ANSWER: CI/CD stands for Continuous Integration and Continuous Deployment. It's a development practice where code changes are automatically tested and deployed, improving software quality and speed.
+TAGS: CI/CD, DevOps, automation, deployment
+
+---
+
+QUESTION: What is JWT?
+ANSWER: JWT (JSON Web Token) is a compact, URL-safe token used for securely transmitting information between parties as a JSON object, commonly used for authentication.
+TAGS: JWT, authentication, security, token
+
+---
+
+QUESTION: What is WebSocket?
+ANSWER: WebSocket is a communication protocol that provides full-duplex, persistent connections between client and server. It's commonly used for real-time applications like chat and gaming.
+TAGS: WebSocket, real-time, communication, protocol
+
+---
+
+QUESTION: What is Redux?
+ANSWER: Redux is a state management library for JavaScript apps, often used with React. It helps manage application state in a predictable way using actions and reducers.
+TAGS: Redux, React, state management, JavaScript
+
+---
+
+QUESTION: What is Tailwind CSS?
+ANSWER: Tailwind CSS is a utility-first CSS framework that provides low-level classes to build custom designs directly in your markup.
+TAGS: Tailwind, CSS, framework, utility-first, styling
+
+---
+
+QUESTION: What is SQL?
+ANSWER: SQL (Structured Query Language) is used for managing and manipulating relational databases. It allows you to create, read, update, and delete data.
+TAGS: SQL, databases, queries, relational
+
+---
+
+QUESTION: What is an API?
+ANSWER: An API (Application Programming Interface) is a set of rules that allows software programs to communicate with each other. APIs expose functions or data to other systems.
+TAGS: API, communication, integration, software
+
+---
+
+QUESTION: What is Firebase?
+ANSWER: Firebase is a platform by Google offering backend services like real-time databases, authentication, hosting, and more for web and mobile applications.
+TAGS: Firebase, backend, Google, real-time, hosting
+
+---
+
+QUESTION: What is OAuth?
+ANSWER: OAuth is an open standard for access delegation, commonly used as a way to grant websites or applications limited access to user information without exposing passwords.
+TAGS: OAuth, authentication, security, access
+
+---
+
+QUESTION: What is RESTful API?
+ANSWER: A RESTful API is an API that adheres to REST principles using standard HTTP methods. It's stateless, scalable, and commonly used in web development.
+TAGS: REST, API, web services, HTTP
+
+---
+
+QUESTION: What is a CDN?
+ANSWER: A CDN (Content Delivery Network) is a network of servers distributed geographically to deliver web content faster by serving data from the closest location to the user.
+TAGS: CDN, performance, hosting, network
+
+---
+
+QUESTION: What is Agile?
+ANSWER: Agile is a software development methodology that emphasizes iterative development, collaboration, and flexibility to adapt to changes quickly.
+TAGS: Agile, methodology, development, process
+
+---
+
+QUESTION: What is GitHub Actions?
+ANSWER: GitHub Actions is a CI/CD tool integrated into GitHub that automates workflows like testing, building, and deploying code from your repositories.
+TAGS: GitHub Actions, CI/CD, automation, DevOps
+
+---
+
+QUESTION: What is the MERN stack?
+ANSWER: The MERN stack is a web development stack consisting of MongoDB, Express.js, React.js, and Node.js.
+TAGS: MERN, stack, full stack, JavaScript
+
+---
+
+QUESTION: What is WebAssembly?
+ANSWER: WebAssembly (Wasm) is a binary instruction format that enables high-performance execution of code in web browsers. It allows languages like C, C++, and Rust to run on the web.
+TAGS: WebAssembly, Wasm, performance, web, binary
+
+---
+
+QUESTION: What is a PWA?
+ANSWER: A PWA (Progressive Web App) is a type of application built using web technologies that behaves like a native app. It supports offline access, push notifications, and more.
+TAGS: PWA, progressive web app, web development, mobile
+
+
+---
+
+QUESTION: What is machine learning?
+ANSWER: Machine learning is a subset of artificial intelligence that enables systems to learn from data, identify patterns, and make decisions with minimal human intervention.
+TAGS: machine learning, AI, algorithms, data science
+
+---
+
+QUESTION: What is the difference between supervised and unsupervised learning?
+ANSWER: Supervised learning uses labeled data to train models, while unsupervised learning identifies patterns in data without labels.
+TAGS: machine learning, AI, supervised, unsupervised, algorithms
+
+---
+
+QUESTION: What is a neural network?
+ANSWER: A neural network is a series of algorithms that mimic the structure and function of the human brain to recognize patterns and relationships in data.
+TAGS: neural network, AI, deep learning, brain-inspired
+
+---
+
+QUESTION: What is React Native?
+ANSWER: React Native is a framework for building mobile apps using JavaScript and React. It allows you to write code once and deploy it to both iOS and Android.
+TAGS: React Native, mobile development, JavaScript, cross-platform
+
+---
+
+QUESTION: What is Web3?
+ANSWER: Web3 refers to the next generation of the internet, focused on decentralization using blockchain technologies and smart contracts.
+TAGS: Web3, blockchain, decentralized web, smart contracts
+
+---
+
+QUESTION: What is a blockchain?
+ANSWER: A blockchain is a distributed digital ledger that stores transactions in blocks. It's decentralized, transparent, and immutable.
+TAGS: blockchain, cryptocurrency, decentralization, ledger
+
+---
+
+QUESTION: What is a smart contract?
+ANSWER: A smart contract is a self-executing contract with the terms directly written into code. It runs on the blockchain and executes automatically when conditions are met.
+TAGS: smart contract, blockchain, automation, Ethereum
+
+---
+
+QUESTION: What is cloud computing?
+ANSWER: Cloud computing is the delivery of computing services like storage, servers, databases, and networking over the internet on a pay-as-you-go basis.
+TAGS: cloud computing, AWS, Azure, Google Cloud, services
+
+---
+
+QUESTION: What is serverless architecture?
+ANSWER: Serverless architecture allows developers to build and run applications without managing infrastructure. Cloud providers handle server management dynamically.
+TAGS: serverless, cloud, architecture, functions, infrastructure
+
+---
+
+QUESTION: What is DevOps?
+ANSWER: DevOps is a set of practices that combines software development and IT operations to shorten the development lifecycle and deliver high-quality software continuously.
+TAGS: DevOps, CI/CD, automation, collaboration, agile
+
+---
+
+QUESTION: What is SASS?
+ANSWER: SASS (Syntactically Awesome Stylesheets) is a CSS preprocessor that adds features like variables, nested rules, and functions, making CSS easier to write and maintain.
+TAGS: SASS, CSS, preprocessor, styling, frontend
+
+---
+
+QUESTION: What is Next.js?
+ANSWER: Next.js is a React framework for building full-stack web applications with features like server-side rendering, static site generation, and API routes.
+TAGS: Next.js, React, framework, SSR, full-stack
+
+---
+
+QUESTION: What is MongoDB?
+ANSWER: MongoDB is a NoSQL, document-based database that stores data in JSON-like format. It's flexible and scalable for modern application development.
+TAGS: MongoDB, NoSQL, database, document, backend
+
+---
+
+QUESTION: What is Prisma?
+ANSWER: Prisma is a next-generation ORM for Node.js and TypeScript. It simplifies database access and provides type safety and auto-completion.
+TAGS: Prisma, ORM, TypeScript, database, Node.js
+
+---
+
+QUESTION: What is Docker Compose?
+ANSWER: Docker Compose is a tool for defining and running multi-container Docker applications using a YAML file to configure the services.
+TAGS: Docker Compose, containers, DevOps, orchestration
+
+---
+
+QUESTION: What is Rust?
+ANSWER: Rust is a systems programming language focused on speed, memory safety, and parallelism. It's used for performance-critical software.
+TAGS: Rust, language, systems, safety, performance
+
+---
+
+QUESTION: What is Deno?
+ANSWER: Deno is a modern runtime for JavaScript and TypeScript, built by the creator of Node.js. It emphasizes security and has a simpler module system.
+TAGS: Deno, runtime, JavaScript, TypeScript, modern
+
+---
+
+QUESTION: What is Astro?
+ANSWER: Astro is a modern static site builder that lets you build fast websites using your favorite frameworks like React, Vue, and Svelte.
+TAGS: Astro, static site, frontend, performance, frameworks
+
+
+---
+
+QUESTION: What is edge computing?
+ANSWER: Edge computing refers to processing data closer to where it's generated (i.e., at the edge of the network) rather than relying solely on centralized cloud servers. It reduces latency and bandwidth usage.
+TAGS: edge computing, IoT, cloud, performance, latency
+
+---
+
+QUESTION: What is quantum computing?
+ANSWER: Quantum computing uses quantum bits (qubits) instead of binary bits to perform computations. It leverages quantum phenomena like superposition and entanglement, allowing massive parallelism.
+TAGS: quantum computing, qubits, superposition, advanced tech, parallelism
+
+---
+
+QUESTION: What is the Internet of Things (IoT)?
+ANSWER: IoT refers to the network of physical devices embedded with sensors and software that connect and exchange data with other devices and systems over the internet.
+TAGS: IoT, smart devices, sensors, connectivity, automation
+
+---
+
+QUESTION: What is 5G technology?
+ANSWER: 5G is the fifth-generation mobile network, offering significantly faster data rates, lower latency, and improved connectivity, powering innovations like autonomous vehicles and remote surgery.
+TAGS: 5G, mobile network, speed, latency, future tech
+
+---
+
+QUESTION: What is cybersecurity?
+ANSWER: Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks that aim to access, change, or destroy sensitive information.
+TAGS: cybersecurity, data protection, hacking, security
+
+---
+
+QUESTION: What is ethical hacking?
+ANSWER: Ethical hacking involves authorized attempts to gain unauthorized access to systems or data to identify and fix security vulnerabilities before malicious actors exploit them.
+TAGS: ethical hacking, penetration testing, security, white hat
+
+---
+
+QUESTION: What is zero trust security?
+ANSWER: Zero trust is a security model that assumes no user or device should be trusted by default, even if it's inside the network perimeter. Continuous verification is required.
+TAGS: zero trust, security model, authentication, network
+
+---
+
+QUESTION: What is Kubernetes?
+ANSWER: Kubernetes is an open-source container orchestration system for automating deployment, scaling, and management of containerized applications.
+TAGS: Kubernetes, containers, DevOps, orchestration, cloud native
+
+---
+
+QUESTION: What is CI/CD?
+ANSWER: CI/CD stands for Continuous Integration and Continuous Deployment. It's a development practice that automates code integration, testing, and deployment to improve software quality and speed.
+TAGS: CI/CD, automation, DevOps, integration, deployment
+
+---
+
+QUESTION: What is GitOps?
+ANSWER: GitOps is a modern DevOps approach that uses Git as the single source of truth for infrastructure and application configuration management.
+TAGS: GitOps, DevOps, infrastructure, automation, Git
+
+---
+
+QUESTION: What is augmented reality (AR)?
+ANSWER: AR overlays digital content onto the real world using devices like smartphones or AR glasses, enhancing user interaction with their physical environment.
+TAGS: AR, augmented reality, immersive, technology, visualization
+
+---
+
+QUESTION: What is virtual reality (VR)?
+ANSWER: VR immerses users in a fully digital environment using headsets like Oculus or HTC Vive. It's commonly used in gaming, training, and simulations.
+TAGS: VR, virtual reality, immersive, simulation, experience
+
+---
+
+QUESTION: What is WebAssembly (WASM)?
+ANSWER: WebAssembly is a low-level binary instruction format that runs in modern web browsers at near-native speed. It enables languages like C++ and Rust to run on the web.
+TAGS: WebAssembly, WASM, performance, browser, native speed
+
+---
+
+QUESTION: What is GraphQL?
+ANSWER: GraphQL is a query language for APIs and a runtime for executing queries. It allows clients to request exactly the data they need, making APIs more efficient and flexible.
+TAGS: GraphQL, API, query language, frontend, backend
+
+---
+
+QUESTION: What is REST API?
+ANSWER: A REST API is an architectural style that allows communication between systems using HTTP requests. It uses standard methods like GET, POST, PUT, and DELETE.
+TAGS: REST, API, HTTP, communication, web
+
+---
+
+QUESTION: What is the Metaverse?
+ANSWER: The Metaverse is a collective virtual shared space that merges physical and digital realities, often using AR, VR, and blockchain to create immersive social and work experiences.
+TAGS: Metaverse, VR, AR, digital space, immersive
+
+---
+
+QUESTION: What is digital twin technology?
+ANSWER: A digital twin is a virtual replica of a physical object or system used to simulate, monitor, and optimize real-world performance.
+TAGS: digital twin, simulation, IoT, monitoring, optimization
+
+---
+
+QUESTION: What is API Gateway?
+ANSWER: An API Gateway is a server that acts as an API front door, handling request routing, authentication, rate limiting, and more, often used in microservices architecture.
+TAGS: API Gateway, microservices, cloud, API management
+
+---
+
+QUESTION: What is a progressive web app (PWA)?
+ANSWER: A PWA is a web application that behaves like a native app. It works offline, loads fast, and can be installed on a device's home screen.
+TAGS: PWA, web app, offline, mobile, native experience
+
+---
+
+QUESTION: What is a container in DevOps?
+ANSWER: A container is a lightweight, portable, and self-contained unit of software that includes code, runtime, and dependencies, making it consistent across environments.
+TAGS: container, Docker, DevOps, consistency, portable
+
+
+---
+
+QUESTION: What is machine learning?
+ANSWER: Machine learning is a subset of AI where computers learn from data without being explicitly programmed. It improves performance over time through experience.
+TAGS: machine learning, AI, data, algorithms
+
+---
+
+QUESTION: What is deep learning?
+ANSWER: Deep learning is a machine learning technique that uses neural networks with many layers to analyze complex data patterns.
+TAGS: deep learning, neural networks, AI, ML
+
+---
+
+QUESTION: What is a neural network?
+ANSWER: A neural network is a computational model inspired by the human brain, consisting of layers of nodes (neurons) that process data to recognize patterns.
+TAGS: neural network, deep learning, AI, pattern recognition
+
+---
+
+QUESTION: What is reinforcement learning?
+ANSWER: Reinforcement learning is a type of machine learning where an agent learns by interacting with its environment and receiving rewards or penalties.
+TAGS: reinforcement learning, ML, AI, agents
+
+---
+
+QUESTION: What is supervised learning?
+ANSWER: Supervised learning uses labeled data to train models to predict outcomes or classify new data.
+TAGS: supervised learning, ML, classification, regression
+
+---
+
+QUESTION: What is unsupervised learning?
+ANSWER: Unsupervised learning uses unlabeled data to discover patterns, such as clustering or dimensionality reduction.
+TAGS: unsupervised learning, ML, clustering, patterns
+
+---
+
+QUESTION: What is a database?
+ANSWER: A database is an organized collection of data that can be accessed, managed, and updated easily.
+TAGS: database, data management, storage
+
+---
+
+QUESTION: What is SQL?
+ANSWER: SQL (Structured Query Language) is a language used to manage and query relational databases.
+TAGS: SQL, database, queries, RDBMS
+
+---
+
+QUESTION: What is NoSQL?
+ANSWER: NoSQL refers to non-relational databases that store data in flexible formats like key-value, document, graph, or column-based storage.
+TAGS: NoSQL, database, non-relational, flexibility
+
+---
+
+QUESTION: What is cloud computing?
+ANSWER: Cloud computing delivers computing services over the internet, such as servers, storage, databases, and software.
+TAGS: cloud computing, services, internet, infrastructure
+
+---
+
+QUESTION: What is SaaS?
+ANSWER: SaaS (Software as a Service) provides software applications over the internet, eliminating the need for installation and maintenance.
+TAGS: SaaS, cloud, software, service
+
+---
+
+QUESTION: What is PaaS?
+ANSWER: PaaS (Platform as a Service) provides a platform allowing customers to develop, run, and manage applications without dealing with infrastructure.
+TAGS: PaaS, platform, cloud, development
+
+---
+
+QUESTION: What is IaaS?
+ANSWER: IaaS (Infrastructure as a Service) provides virtualized computing resources like servers and storage over the internet.
+TAGS: IaaS, infrastructure, virtualization, cloud
+
+---
+
+QUESTION: What is an API?
+ANSWER: An API (Application Programming Interface) is a set of rules that allows software components to communicate.
+TAGS: API, communication, interface, software
+
+---
+
+QUESTION: What is a microservice?
+ANSWER: A microservice is an architectural style where an application is composed of small, independent services that communicate via APIs.
+TAGS: microservices, architecture, APIs, distributed systems
+
+---
+
+QUESTION: What is Docker?
+ANSWER: Docker is a platform for developing, shipping, and running applications in containers.
+TAGS: Docker, containerization, DevOps, environment
+
+---
+
+QUESTION: What is serverless computing?
+ANSWER: Serverless computing allows developers to build applications without managing servers. The cloud provider handles infrastructure.
+TAGS: serverless, cloud, infrastructure, development
+
+---
+
+QUESTION: What is Git?
+ANSWER: Git is a version control system that tracks changes in code and supports collaboration among developers.
+TAGS: Git, version control, development, collaboration
+
+---
+
+QUESTION: What is GitHub?
+ANSWER: GitHub is a web-based platform that hosts Git repositories and provides collaboration tools like pull requests and issues.
+TAGS: GitHub, code hosting, collaboration, Git
+
+---
+
+QUESTION: What is DevOps?
+ANSWER: DevOps is a set of practices that combines development and operations to shorten the development lifecycle and deliver high-quality software.
+TAGS: DevOps, development, operations, automation
+
+---
+
+QUESTION: What is agile methodology?
+ANSWER: Agile is a project management approach that emphasizes iterative development, collaboration, and flexibility in response to change.
+TAGS: agile, development, project management, sprint
+
+---
+
+QUESTION: What is Scrum?
+ANSWER: Scrum is an agile framework that uses time-boxed iterations called sprints to deliver incremental updates.
+TAGS: Scrum, agile, sprints, framework
+
+---
+
+QUESTION: What is a virtual machine?
+ANSWER: A virtual machine (VM) is a software emulation of a physical computer that runs an operating system and applications.
+TAGS: virtual machine, VM, virtualization, OS
+
+---
+
+QUESTION: What is a front-end developer?
+ANSWER: A front-end developer builds the part of websites and applications users interact with, using HTML, CSS, and JavaScript.
+TAGS: front-end, web development, UI, HTML
+
+---
+
+QUESTION: What is a back-end developer?
+ANSWER: A back-end developer builds server-side logic, databases, and APIs that power the functionality of web applications.
+TAGS: back-end, server, database, API
+
+---
+
+QUESTION: What is full-stack development?
+ANSWER: Full-stack development involves working on both the front-end and back-end of an application.
+TAGS: full-stack, front-end, back-end, development
+
+---
+
+QUESTION: What is a data scientist?
+ANSWER: A data scientist analyzes and interprets complex data to help companies make decisions, often using statistical and machine learning techniques.
+TAGS: data science, analysis, ML, statistics
+
+---
+
+QUESTION: What is big data?
+ANSWER: Big data refers to extremely large data sets that require specialized tools and techniques to analyze, store, and process.
+TAGS: big data, analytics, storage, processing
+
+---
+
+QUESTION: What is a CDN?
+ANSWER: A CDN (Content Delivery Network) distributes content to users from servers that are geographically closer, improving load speed and performance.
+TAGS: CDN, content delivery, speed, performance
+
+---
+
+QUESTION: What is a DNS?
+ANSWER: DNS (Domain Name System) translates human-readable domain names into IP addresses computers use to identify each other.
+TAGS: DNS, domain, IP, internet
+
+---
+
+QUESTION: What is two-factor authentication?
+ANSWER: Two-factor authentication (2FA) adds a second layer of security by requiring something you know (password) and something you have (phone/code).
+TAGS: 2FA, authentication, security, login
+
+---
+
+QUESTION: What is phishing?
+ANSWER: Phishing is a cyberattack that tricks users into revealing sensitive information by pretending to be a trustworthy source.
+TAGS: phishing, cyberattack, scam, security
+
+---
+
+QUESTION: What is encryption?
+ANSWER: Encryption is a method of converting data into a code to prevent unauthorized access.
+TAGS: encryption, security, data protection, cryptography
+
+---
+
+QUESTION: What is blockchain?
+ANSWER: Blockchain is a distributed ledger technology that records transactions securely and immutably across a network.
+TAGS: blockchain, decentralized, ledger, security
+
+---
+
+QUESTION: What is Bitcoin?
+ANSWER: Bitcoin is a decentralized digital currency built on blockchain technology, allowing peer-to-peer transactions without intermediaries.
+TAGS: Bitcoin, cryptocurrency, blockchain, digital currency
+
+---
+
+QUESTION: What is an IDE?
+ANSWER: An IDE (Integrated Development Environment) is software that provides tools for coding, debugging, and testing programs in one interface.
+TAGS: IDE, programming, tools, development
+
+---
+
+QUESTION: What is a compiler?
+ANSWER: A compiler translates source code written in a programming language into machine code that a computer can execute.
+TAGS: compiler, programming, machine code, translation
+
+---
+
+QUESTION: What is an interpreter?
+ANSWER: An interpreter executes code line-by-line, translating it into actions at runtime, rather than compiling it beforehand.
+TAGS: interpreter, runtime, code execution, programming
+
+---
+
+QUESTION: What is object-oriented programming?
+ANSWER: OOP is a programming paradigm based on objects and classes, focusing on encapsulation, inheritance, and polymorphism.
+TAGS: OOP, classes, objects, programming paradigm
+
+---
+
+QUESTION: What is an algorithm?
+ANSWER: An algorithm is a step-by-step procedure for solving a problem or performing a task.
+TAGS: algorithm, logic, problem-solving, programming
+
+---
+
+QUESTION: What is data structure?
+ANSWER: A data structure is a way of organizing and storing data for efficient access and modification.
+TAGS: data structure, programming, efficiency, storage
+
+---
+
+QUESTION: What is recursion?
+ANSWER: Recursion is a programming technique where a function calls itself to solve smaller instances of a problem.
+TAGS: recursion, function, algorithm, programming
+
+---
+
+QUESTION: What is multithreading?
+ANSWER: Multithreading allows a CPU to execute multiple threads concurrently, improving performance in multitasking environments.
+TAGS: multithreading, concurrency, CPU, programming
+
+---
+
+QUESTION: What is an operating system?
+ANSWER: An operating system (OS) manages hardware and software resources, and provides services for running applications.
+TAGS: OS, system software, resource management, kernel
+
+---
+
+QUESTION: What is open-source software?
+ANSWER: Open-source software has publicly accessible source code, allowing anyone to inspect, modify, and enhance it.
+TAGS: open source, software, collaboration, development
+
+---
+
+QUESTION: What is version control?
+ANSWER: Version control is a system that tracks changes to code over time, allowing developers to collaborate and revert to previous versions.
+TAGS: version control, Git, collaboration, history
+
+---
+
+QUESTION: What is a software bug?
+ANSWER: A software bug is an error or flaw in a program that causes it to behave unexpectedly or incorrectly.
+TAGS: bug, software, error, debugging
+
+---
+
+QUESTION: What is cloud computing?
+ANSWER: Cloud computing is the delivery of computing services—including servers, storage, databases, networking, software, analytics, and intelligence—over the Internet (“the cloud”) to offer faster innovation, flexible resources, and economies of scale.
+TAGS: cloud, computing, definition, services
+
+---
+
+QUESTION: What are the different types of cloud deployment models?
+ANSWER: The main cloud deployment models are Public Cloud, Private Cloud, Hybrid Cloud, and Community Cloud. Each model offers different levels of management, security, and control.
+TAGS: cloud, deployment, models, public, private, hybrid
+
+
+---
+
+QUESTION: What is a virtual machine (VM)?
+ANSWER: A virtual machine is a software-based emulation of a physical computer that runs an operating system and applications just like a real computer. It enables efficient resource utilization and flexibility in cloud environments.
+TAGS: virtualization, VM, cloud, computing
+
+
+---
+
+QUESTION: What is a server?
+ANSWER: A server is a computer or system that provides resources, data, services, or programs to other computers, known as clients, over a network.
+TAGS: server, networking, computing, hardware
+
+---
+
+QUESTION: What is a data center?
+ANSWER: A data center is a facility that houses a large number of computer servers and related infrastructure to support business applications, data processing, and cloud services.
+TAGS: data center, infrastructure, cloud, servers
+
+---
+
+QUESTION: What is blockchain?
+ANSWER: Blockchain is a distributed ledger technology where transactions are recorded chronologically and publicly on blocks that are linked using cryptography. It is decentralized, secure, and tamper-evident.
+TAGS: blockchain, DLT, crypto, decentralization
+
+---
+
+QUESTION: What is the difference between blockchain and a database?
+ANSWER: A traditional database is centrally controlled, while blockchain is decentralized and uses a consensus mechanism to validate records. Blockchain is immutable; data can't be changed once written.
+TAGS: blockchain, database, comparison, decentralization
+
+---
+
+QUESTION: What is DNS (Domain Name System)?
+ANSWER: DNS is the phonebook of the Internet. It translates domain names (like www.example.com) into IP addresses so browsers can load Internet resources.
+TAGS: DNS, networking, IP, domains
+
+---
+
+QUESTION: What is chain-of-thought reasoning in AI?
+ANSWER: Chain-of-thought reasoning refers to generating intermediate reasoning steps when solving a problem. It improves performance by breaking down the process into logical steps.
+TAGS: AI, reasoning, logic, chain-of-thought
+
+---
+
+QUESTION: What is the OSI model?
+ANSWER: The OSI model is a conceptual framework that standardizes the functions of a telecommunication or computing system into seven abstraction layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+TAGS: OSI, networking, layers, protocols
+
+---
+
+QUESTION: What is IaaS?
+ANSWER: IaaS (Infrastructure as a Service) is a cloud computing model that provides virtualized computing resources over the Internet, such as virtual machines, storage, and networks.
+TAGS: IaaS, cloud, infrastructure, services
+
+---
+
+QUESTION: What is PaaS?
+ANSWER: PaaS (Platform as a Service) provides developers with a platform including operating systems, development tools, database management, and more to build, test, and deploy applications.
+TAGS: PaaS, platform, cloud, development
+
+---
+
+QUESTION: What is SaaS?
+ANSWER: SaaS (Software as a Service) delivers software applications over the Internet, eliminating the need for installation or maintenance. Examples include Gmail, Microsoft 365, and Dropbox.
+TAGS: SaaS, software, applications, cloud
+
+---
+
+QUESTION: What is cloud storage?
+ANSWER: Cloud storage is a model of computer data storage where digital data is stored in logical pools, across multiple servers and locations, accessible via the Internet.
+TAGS: storage, cloud, data, servers
+
+---
+
+QUESTION: What is a cloud provider?
+ANSWER: A cloud provider is a company that offers cloud-based platform, infrastructure, application, or storage services. Common examples include AWS, Microsoft Azure, and Google Cloud.
+TAGS: provider, cloud, AWS, Azure, GCP
+
+---
+
+QUESTION: What is latency in networking?
+ANSWER: Latency is the time it takes for data to travel from the source to the destination. Lower latency means faster communication.
+TAGS: latency, networking, performance, delay
+
+---
+
+QUESTION: What is bandwidth?
+ANSWER: Bandwidth refers to the maximum rate of data transfer across a network path. It's usually measured in bits per second (bps).
+TAGS: bandwidth, speed, networking, internet
+
+---
+
+QUESTION: What is TCP/IP?
+ANSWER: TCP/IP is a suite of communication protocols used to interconnect network devices on the internet. TCP ensures data delivery; IP handles the addressing.
+TAGS: TCP/IP, protocol, internet, networking
+
+---
+
+QUESTION: What is a firewall?
+ANSWER: A firewall is a network security device or software that monitors and filters incoming and outgoing network traffic based on predefined security rules.
+TAGS: firewall, security, networking, protection
+
+---
+
+QUESTION: What is a VPN?
+ANSWER: A VPN (Virtual Private Network) creates a secure and encrypted connection over a less secure network, such as the internet.
+TAGS: VPN, security, encryption, network
+
+---
+
+QUESTION: What is edge computing?
+ANSWER: Edge computing processes data near the edge of the network where the data is generated, instead of relying on a central server. It reduces latency and bandwidth usage.
+TAGS: edge, computing, IoT, latency
+
+---
+
+QUESTION: What is a container in cloud computing?
+ANSWER: A container is a standard unit of software that packages code and dependencies so an application can run quickly and reliably across different computing environments.
+TAGS: container, Docker, cloud, deployment
+
+---
+
+QUESTION: What is Kubernetes?
+ANSWER: Kubernetes is an open-source platform for automating the deployment, scaling, and management of containerized applications.
+TAGS: Kubernetes, containers, orchestration, DevOps
+
+---
+
+QUESTION: What is load balancing?
+ANSWER: Load balancing is a technique used to distribute network or application traffic across multiple servers to improve reliability and performance.
+TAGS: load balancing, networking, cloud, servers
+
+---
+
+QUESTION: What is a blockchain node?
+ANSWER: A node is any active electronic device on a blockchain network that maintains a copy of the blockchain and contributes to the network's integrity.
+TAGS: blockchain, node, decentralized, ledger
+
+---
+
+QUESTION: What is a smart contract?
+ANSWER: A smart contract is a self-executing contract with the terms directly written into code, running on blockchain platforms like Ethereum.
+TAGS: smart contract, blockchain, Ethereum, code
+
+---
+
+QUESTION: What is proof of work?
+ANSWER: Proof of Work is a consensus mechanism used by blockchains like Bitcoin that requires participants to solve complex mathematical problems to validate transactions and create new blocks.
+TAGS: proof of work, blockchain, consensus, mining
+
+---
+
+QUESTION: What is proof of stake?
+ANSWER: Proof of Stake is a consensus mechanism where validators are chosen to create new blocks and validate transactions based on the number of coins they hold and are willing to “stake.”
+TAGS: proof of stake, blockchain, consensus, staking
+
+---
+
+QUESTION: What is the difference between public and private blockchains?
+ANSWER: Public blockchains are open and permissionless, while private blockchains restrict access to certain users and are often used in enterprises.
+TAGS: blockchain, public, private, comparison
+
+---
+
+QUESTION: What is cloud-native architecture?
+ANSWER: Cloud-native architecture involves building and running applications that exploit the advantages of the cloud computing model, typically using containers, microservices, and CI/CD.
+TAGS: cloud-native, architecture, microservices, DevOps
+
+---

@@ -181,6 +181,7 @@ body {
     flex-direction: column;
     height: 100%;
     position: relative;
+    overflow-y: scroll;
 }
 
 .chat-header {
@@ -432,6 +433,7 @@ body {
 /* Input area styling */
 .chat-input-container {
     padding: 20px;
+    position: sticky;
     background-color: rgba(30, 35, 45, 0.7);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     height: var(--footer-height);
@@ -705,6 +707,7 @@ body {
 .settings-modal .modal-content {
     background-color: rgba(30, 35, 45, 0.95);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
